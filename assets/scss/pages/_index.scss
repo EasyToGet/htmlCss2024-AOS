@@ -1,0 +1,22 @@
+.banner {
+  background: #EFEFEF;
+  &-text {
+    width: 636px;
+    font-size: 32px;
+  }
+}
+
+.experience {
+  &-content {
+    width: 636px;
+  }
+  &-lh {
+    line-height: 1.5;
+  }
+}
+
+.year-text {
+  font-size: 20px;
+  font-style: italic;
+  color: #949494;
+}

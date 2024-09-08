@@ -1,0 +1,12 @@
+.header {
+  padding-top: 160px;
+  &-title {
+    font-size: 128px;
+    letter-spacing: 16px;
+    line-height: 1.5;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
