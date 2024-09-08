@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>第七週 - 視差滾動</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
 
-    <div class="banner py-6">
+    <div class="banner py-6" data-aos="fade-left">
       <div class="container">
         <p class="banner-text mb-0 ms-auto">
           I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile
@@ -26,14 +27,14 @@
     <div class="experience pt-8 pb-9">
       <div class="container">
         <div class="experience-content">
-          <div class="vitoEvans mb-5">
+          <div class="vitoEvans mb-5" data-aos="fade-right">
             <h3 class="experience-lh text-primary border-bottom border-3 border-primary fs-1 mb-3">Vito Evans</h3>
             <p class="fs-4 mb-2">456 Walnut Avenue, Someville, USA</p>
             <p class="fs-4 mb-2">+1 123 456 7890</p>
             <p class="fs-4 mb-2">info@hexschool.com</p>
             <p class="fs-4">www.infohexschool.com</p>
           </div>
-          <div class="education mb-5">
+          <div class="education mb-5" data-aos="fade-right">
             <h3 class="experience-lh text-primary border-bottom border-3 border-primary fs-1 mb-3">Education</h3>
             <span class="year-text">2014-2018</span>
             <p class="fs-4 mb-3">Bachelor of Science in Business Administration, University of California, Los
@@ -43,7 +44,7 @@
             <span class="year-text">2008-2012</span>
             <p class="fs-4">High School Diploma, Lincoln High School</p>
           </div>
-          <div class="work mb-5">
+          <div class="work mb-5" data-aos="fade-right">
             <h3 class="experience-lh text-primary border-bottom border-3 border-primary fs-1 mb-3">Work</h3>
             <span class="year-text">2018-2021</span>
             <p class="fs-4 mb-3">Marketing Manager, ABC Company</p>
@@ -52,7 +53,7 @@
             <span class="year-text">2014-2016</span>
             <p class="fs-4">Customer Service Representative, QRS Inc.</p>
           </div>
-          <div class="awards mb-5">
+          <div class="awards mb-5" data-aos="fade-right">
             <h3 class="experience-lh text-primary border-bottom border-3 border-primary fs-1 mb-3">Awards</h3>
             <p class="fs-4 mb-1">Best in Show Award, National Advertising Awards, 2020</p>
             <p class="fs-4 mb-1">Honorable Mention, International Design Competition, 2019</p>
@@ -63,7 +64,7 @@
     </div>
 
     <%- include('./layout/footer'); -%>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
